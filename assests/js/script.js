@@ -26,3 +26,10 @@ function updateValue(e) {
 } 
 
 convert.addEventListener("click", getResults); 
+
+function getResults() { 
+    fetch(`${api}`) 
+        .then(currency => { 
+            return currency.json(); 
+        }).then(displayResults); 
+} 
