@@ -8,9 +8,7 @@
 ---
 ### 🔗🔗Link:[https://github.com/JohiChawala/Currency-Converter-intern-Task1]
 ---
-### Landing page
-https://currency-converter-intern-task1.vercel.app/
----
+
 ## Running Currency Converter
 ### To run `Online`
 - go to (https://currency-converter-intern-task1.vercel.app/)
@@ -21,6 +19,5 @@ https://currency-converter-intern-task1.vercel.app/
 - Run the `index.html` file in your web browser
 ---
 
----
 ## Want to Contribute?
 - Absolutely! Feel free to raise issues, report errors, or contribute to the code. Submit a pull request, and your efforts will be greatly appreciated.
