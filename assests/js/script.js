@@ -24,3 +24,5 @@ search.addEventListener('input', updateValue);
 function updateValue(e) { 
     searchValue = e.target.value; 
 } 
+
+convert.addEventListener("click", getResults); 
