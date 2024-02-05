@@ -6,14 +6,12 @@ body {
     background-repeat: no-repeat; 
 } 
 .heading { 
-    font-family: 'Pacifico', cursive; 
-    margin: 35px auto 20px; 
+    margin: 25px auto 10px; 
+    background: linear-gradient(45deg, #ff8a00, #e52e71, #3cb80b, #6fa708);
+    -webkit-background-clip: text;
+     color: transparent;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 } 
-hr { 
-    border-top: 2px solid black; 
-    width: 40%; 
-    margin-bottom: 55px; 
-}
 .main { 
     width: 30vw; 
     margin: auto; 
@@ -34,13 +32,13 @@ label {
 #finalAmount { 
     font-family: 'Lobster', cursive; 
     display: none; 
-    margin: 50px auto; 
+    margin: 20px auto; 
 } 
 #finalAmount h2 { 
     font-size: 50px; 
 } 
 .finalValue { 
-    font-family: 'Amiri', serif; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 } 
 
 @media (max-width: 768px) { 
