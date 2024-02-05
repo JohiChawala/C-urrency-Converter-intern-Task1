@@ -18,3 +18,9 @@ fromCurrecy.addEventListener('change', (event) => {
 toCurrecy.addEventListener('change', (event) => { 
     resultTo = `${event.target.value}`; 
 }); 
+
+search.addEventListener('input', updateValue); 
+
+function updateValue(e) { 
+    searchValue = e.target.value; 
+} 
